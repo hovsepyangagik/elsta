@@ -1,0 +1,30 @@
+.welcomeSection{
+    width: 100%;
+    margin-top: 160px;
+    padding: 0 20px 75px 20px;
+    h2{ 
+        font-family: "Infinity";
+        font-size: 52px;
+        font-weight: 400;
+        text-align: center;
+        color: #1e3435;
+        margin: 20px 0;
+    }
+    p{
+        max-width: 607px;
+        font-family: "Open Sans";
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 35px;
+        text-align: center;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .welcomeSection{
+        h2{
+            font-size: 40px;
+        }
+    }
+}

@@ -1,0 +1,108 @@
+.pricing-plans-item{
+    width: 270px;
+    max-width: 270px;
+    min-width: 270px;
+    margin-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    box-shadow: 0px 0px 9px 0px rgba($color: #000000, $alpha: 0.2);
+    .price{
+        width: 108px;
+        height: 108px;
+        border-radius: 50%;
+        background-color: #425a5a;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        top: -54px;
+        box-shadow: 2px 3px 0 0 rgba(0,0,0, 0.13);
+        z-index: 2;
+        .price-content{
+            font-family: "Open Sans";
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 15px;
+            color: #ffffff;
+            .cost{
+                font-size: 58px;
+                line-height: 28px;
+            }
+            .monthly{
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 300;
+                margin-left: 45px;
+            }
+        }
+    }
+    .pricing-plan-header{
+        width: 100%;
+        height: 135px;
+        background: url("../../images/cover.png") no-repeat center center / cover;
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .pricing-plan-header-opacity{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: url("../../images/cover-opacity.png") no-repeat center center / cover;
+            z-index: 1;
+        }
+        .pricing-plan-header-title-description{
+            position: relative;
+            top: 15px;
+            .pricing-plan-title{
+                font-family: 'Open Sans';
+                font-size: 36px;
+                font-weight: 300;
+                color: #ffffff;
+                text-align: center;
+                z-index: 2;
+            }
+            .pricing-plan-header-description{
+                margin: 0;
+                font-family: 'Open Sans';
+                font-size: 12px;
+                font-weight: 300;
+                color: #a1a1a1;
+                text-align: center;  
+                z-index: 2; 
+            }
+        }
+    }
+    ul{
+        width: 100%;
+        li{
+            list-style: none;
+            width: 100%;
+            font-family: "Open Sans";
+            font-size: 18px;
+            font-weight: 300;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1px solid #dfdfdf;
+        }
+    }
+    &:nth-child(3){
+        .price{
+            background-color: #58d093;
+        }
+        .pricing-plan-header{
+            background: url("../../images/cover-green.png") no-repeat center center / cover;
+            .pricing-plan-header-title-description{
+                .pricing-plan-header-description{
+                    color: #f4f4f4;
+                }
+            }
+        }
+        .purchaseButton{
+            background-color: #58d093;
+        }
+    }
+}

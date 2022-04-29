@@ -1,0 +1,31 @@
+.downloadButton{
+    width: 142px;
+    height: 39px;
+    text-align: center;
+    cursor: pointer;
+    z-index: 2;
+    background-color: #58d093;
+    border-radius: 5px;
+    box-shadow: 0 2px #3c9066;
+    a{
+        text-transform: uppercase;
+        font-family: "Open Sans";
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 39px;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+    }
+}
+
+@media screen and (max-width: 568px){
+    .downloadButton{
+        width: 100px;
+        height: 30px;
+        a{
+            font-size: 14px;
+            line-height: 30px;
+        }
+    }
+}

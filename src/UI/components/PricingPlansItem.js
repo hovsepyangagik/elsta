@@ -1,6 +1,6 @@
 import '../components-styles/pricingPlansItem.scss';
 import './buttons/DownloadButton';
-import PurchaseButton from './buttons/purchaseButton';
+import PurchaseButton from './buttons/PurchaseButton';
 
 function PricingPlansItem(props) {
     return (

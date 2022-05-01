@@ -1,6 +1,7 @@
 import './App.css';
 import Advantages from './UI/components/Advantages';
 import ContactUs from './UI/components/ContactUs';
+import Footer from './UI/components/Footer';
 import GetTheApp from './UI/components/GetTheApp';
 import MainSection from './UI/components/MainSection';
 import PricingPlans from './UI/components/PricingPlans';
@@ -21,6 +22,7 @@ function App() {
       <ShadowEffect />
       <PricingPlans />
       <ContactUs />
+      <Footer />
     </div>
   );
 }

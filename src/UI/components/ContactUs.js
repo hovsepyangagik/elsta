@@ -12,6 +12,7 @@ function ContactUs() {
                         <input type="email" placeholder="Email" />
                     </div>
                     <textarea placeholder="Message....."></textarea>
+                    <input type={'submit'} value={'SEND'} className="form-submit-btn"/>
                 </form>
             </div>
         </section>

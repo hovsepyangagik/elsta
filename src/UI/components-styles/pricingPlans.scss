@@ -1,13 +1,14 @@
 .pricing-plans{
 
-    h3{
+    h3 {
         font-family: 'Open Sans';
         font-size: 42px;
         font-weight: 300;
         color: #1e3536;
         text-align: center;
     }
-    p{
+
+    p {
         font-family: 'Open Sans';
         font-size: 20px;
         font-weight: 300;
@@ -16,7 +17,8 @@
         max-width: 920px;
         margin: 30px auto 50px auto;
     }
-    .pricing-plans-container{
+
+    .pricing-plans-container {
         max-width: 1170px;
         margin: 100px auto 0 auto;
         display: flex;

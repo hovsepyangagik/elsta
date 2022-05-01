@@ -1,3 +1,5 @@
+@import './buttons-styles/downloadButton.scss';
+
 .contactUs-section{
     h3{
         font-family: 'Open Sans';
@@ -50,9 +52,36 @@
             border-radius: 5px;
             border: none;
             outline: none;
-            padding: 20px 0 0 20px;
+            padding: 20px;
             margin: 25px 0 0 0;
             resize: none;
+        }
+        .form-submit-btn{
+            @extend .downloadButton;
+            border: none;
+            color: #fff;
+            display: block;
+            margin: 20px auto;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contactUs-section{
+        p{
+            max-width: 270px;
+        }
+        .form-container{
+            max-width: 270px;
+            .name-email{
+                flex-direction: column;
+                input{
+                    width: 100%;
+                    &:nth-child(1){
+                        margin-bottom: 20px;
+                    }
+                }
+            }
         }
     }
 }

@@ -11,132 +11,150 @@
         background: url("../../images/cover-opacity.png") no-repeat center center / cover;
         z-index: 1;
     }
-    .logo-box{
-        width: 139px;
-        height: 162px;
-        position: absolute;
-        top: -34px;
-        left: 95px;
-        background: url("../../images/sticker.png") no-repeat center center / contain;
-        z-index: 2;
-        .name-in-logo{
-            font-family: "Infinity";
-            font-size: 72px;
-            font-weight: 400;
-            line-height: 162px;
-            text-align: center;
-            color: #fff;  
+    .container{
+        max-width: 1500px;
+        height: 100%;
+        margin: 0 auto;
+        position: relative;
+        .logo-box{
+            width: 139px;
+            height: 162px;
+            position: absolute;
+            top: -34px;
+            left: 95px;
+            background: url("../../images/sticker.png") no-repeat center center / contain;
+            z-index: 2;
+            .name-in-logo{
+                font-family: "Infinity";
+                font-size: 72px;
+                font-weight: 400;
+                line-height: 162px;
+                text-align: center;
+                color: #fff;  
+            }
         }
-    }
-    .main-section-content{
-        max-width: 570px;
-        display: flex;
-        flex-direction: column;
-        position: absolute;
-        top: 40%;
-        left: 20%;
+        .main-section-content{
+            max-width: 570px;
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 40%;
+            left: 20%;
 
-        h1{
-            font-family: "Open Sans";
-            font-size: 32px;
-            font-weight: 300;
-            line-height: 32px;
-            color: #fff;
+            h1{
+                font-family: "Open Sans";
+                font-size: 32px;
+                font-weight: 300;
+                line-height: 32px;
+                color: #fff;
+            }
+            p{
+                margin: 22px 0 31px 0;
+                font-family: "Open Sans";
+                font-size: 14px;
+                font-weight: 300;
+                line-height: 22px;
+                color: #fff;
+            }
         }
-        p{
-            margin: 22px 0 31px 0;
-            font-family: "Open Sans";
-            font-size: 14px;
-            font-weight: 300;
-            line-height: 22px;
-            color: #fff;
+        .iphone_5s{
+            width: 310px;
+            z-index: 3;
+            position: absolute;
+            top: 145px;
+            right: 221px;
         }
-    }
-    .iphone_5s{
-        width: 310px;
-        z-index: 3;
-        position: absolute;
-        top: 145px;
-        right: 221px;
     }
 }
 @media screen and (max-width: 1366px) {
     .main-section{
-        .iphone_5s{
-            right: 10%;
+        .container{
+            .iphone_5s{
+                right: 10%;
+            }
         }
     }
 }
 @media screen and (max-width: 1200px) {
     .main-section{
-        .logo-box{
-            width: 100px;
-            height: 130px;
-            top: -30px;
-            left: 70px;
-            .name-in-logo{
-                font-size: 52px;
-                line-height: 130px;
+        .container{
+            .logo-box{
+                width: 100px;
+                height: 130px;
+                top: -30px;
+                left: 70px;
+                .name-in-logo{
+                    font-size: 52px;
+                    line-height: 130px;
+                }
             }
-        }
-        .main-section-content{
-            max-width: 300px;
-            top: 30%;
+            .main-section-content{
+                max-width: 300px;
+                top: 30%;
+            }
         }
     }
 }
 @media screen and (max-width: 850px) {
     .main-section{
         height: 500px;
-        .iphone_5s{
-            width: 200px;
-            top: 228px;
-            right: 10%;
+        .container{
+            .iphone_5s{
+                width: 200px;
+                top: 228px;
+                right: 10%;
+            }
         } 
     }
 }
 @media screen and (max-width: 700px){
     .main-section{
-        .main-section-content{
-            max-width: 270px;
-            left: 70px;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-        .iphone_5s{
-            right: 20px;
+        .container{
+            .main-section-content{
+                max-width: 270px;
+                left: 70px;
+                top: 50%;
+                transform: translateY(-50%);
+            }
+            .iphone_5s{
+                right: 20px;
+            }
         }
     }
 }
 @media screen and (max-width: 568px){
     .main-section{
-        .main-section-content{
-            max-width: 220px;
-            left: 20px;
-        }
-        .logo-box{
-            width: 70px;
-            height: 105px;
-            left: 20px;
-            .name-in-logo{
-                font-size: 35px;
-                line-height: 105px;
+        .container{
+            .main-section-content{
+                max-width: 220px;
+                left: 20px;
             }
-        }
-        .iphone_5s{
-            right: 0px;
+            .logo-box{
+                width: 70px;
+                height: 105px;
+                left: 20px;
+                .name-in-logo{
+                    font-size: 35px;
+                    line-height: 105px;
+                }
+            }
+            .iphone_5s{
+                right: 0px;
+            }
         }
     }
 }
 @media screen and (max-width: 400px){
     .main-section{
         height: 400px;
-        .main-section-content{
-            max-width: 100%;
-            right: 20px;
-        }
-        .iphone_5s{
-            display: none;
+        .container{        
+            .main-section-content{
+                max-width: 100%;
+                right: 20px;
+            }
+            .iphone_5s{
+                display: none;
+            }
         }
     }
 }

@@ -1,4 +1,7 @@
 import '../../components-styles/buttons-styles/purchaseButton.scss'
+
+// PurchaseButton component - fixed
+
 function PurchaseButton() {
     return (
         <div className='purchaseButton'>

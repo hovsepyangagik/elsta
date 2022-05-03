@@ -1,12 +1,14 @@
+@import "../variables/color-variables.scss";
+
 .purchaseButton{
     width: 132px;
     height: 39px;
     text-align: center;
     cursor: pointer;
     z-index: 2;
-    background-color: #425a5a;
+    background-color: $purchaseBtnBackground;
     border-radius: 5px;
-    box-shadow: 0 2px #000000a6;
+    box-shadow: 0 2px $purchaseBtnShadow;
     margin: 35px 0;
     a{
         text-transform: uppercase;
@@ -16,6 +18,10 @@
         line-height: 39px;
         text-align: center;
         text-decoration: none;
-        color: #fff;
+        color: $btnTextColor;
+    }
+    &:hover{
+        background-color: $btnHoverBackground;
+        box-shadow: none;
     }
 }

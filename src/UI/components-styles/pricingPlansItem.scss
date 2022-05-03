@@ -1,3 +1,5 @@
+@import './variables/color-variables.scss';
+
 .pricing-plans-item{
     width: 270px;
     max-width: 270px;
@@ -61,7 +63,7 @@
                 font-family: 'Open Sans';
                 font-size: 36px;
                 font-weight: 300;
-                color: #ffffff;
+                color: $btnTextColor;
                 text-align: center;
                 z-index: 2;
             }
@@ -70,7 +72,7 @@
                 font-family: 'Open Sans';
                 font-size: 12px;
                 font-weight: 300;
-                color: #a1a1a1;
+                color: $pricing-plan-header-description-color;
                 text-align: center;  
                 z-index: 2; 
             }
@@ -86,12 +88,12 @@
             font-weight: 300;
             padding: 20px 0;
             text-align: center;
-            border-bottom: 1px solid #dfdfdf;
+            border-bottom: 1px solid $pricing-plan-list-border-color;
         }
     }
     &:nth-child(3){
         .price{
-            background-color: #58d093;
+            background-color: $downloadBtnBackground;
         }
         .pricing-plan-header{
             background: url("../../images/cover-green.png") no-repeat center center / cover;
@@ -102,7 +104,12 @@
             }
         }
         .purchaseButton{
-            background-color: #58d093;
+            background-color: $downloadBtnBackground;
+            box-shadow: 0 2px $btnHoverBackground;
+            &:hover{
+                background-color: $btnHoverBackground;
+                box-shadow: none;
+            }
         }
     }
 }

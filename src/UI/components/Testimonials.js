@@ -6,7 +6,7 @@ import brackets from '../../images/brackets.png'
 function Testimonials() {
     return (
         <section className='testimonials'>
-            <img src={testimonialImg} alt="John Smith, CEO"/>
+            <img src={testimonialImg} alt="John Smith, CEO" className='testimonial-img'/>
             <p className='testimonial-name'>John Smith, CEO</p>
             <div className='testimonial-paragraph-box'>
                 <img src={brackets} className="brackets" alt='testimonial brackets'/>

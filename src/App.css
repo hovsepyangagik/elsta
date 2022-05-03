@@ -4,10 +4,7 @@
 /* Infinity */
 @font-face {
   font-family: 'Infinity';
-  src: local('Infinity'), url('/src/UI/fonts/Infinity.ttf') format('ttf');
+  src: local('Infinity'), url('./fonts/Infinity.ttf') format('ttf');
 }
 
-/* .App {
-  text-align: center;
-} */
 

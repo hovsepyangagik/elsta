@@ -32,8 +32,8 @@
                 font-size: 18px;
                 line-height: 28px;
                 font-weight: 300;
-                color: #a6a6a6;
-                background-color: #e6e6e6;
+                color: $input-text-color;
+                background-color: $input-background-color;
                 border-radius: 2px;
                 border: none;
                 outline: none;
@@ -47,8 +47,8 @@
             font-size: 18px;
             line-height: 28px;
             font-weight: 300;
-            color: #a6a6a6;
-            background-color: #e6e6e6;
+            color: $input-text-color;
+            background-color: $input-background-color;
             border-radius: 5px;
             border: none;
             outline: none;
@@ -59,7 +59,7 @@
         .form-submit-btn{
             @extend .downloadButton;
             border: none;
-            color: #fff;
+            color: $btnTextColor;
             display: block;
             margin: 20px auto;
         }

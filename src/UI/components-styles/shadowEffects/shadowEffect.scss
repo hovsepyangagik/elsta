@@ -1,10 +1,11 @@
 .shadow-line{
     max-width: 800px;
-    margin: 0 auto;
-    img{
-        max-width: 100%;
-        &:nth-child(2){
-            transform: rotate(180deg) translateY(calc(100% + 2px)); // 
-        }   
+    height: 1px;
+    margin: 100px auto;
+    background-color: #fff;
+    .shadow-effect{
+        width: 600px;
+        margin: 0 auto;
+        box-shadow: 0 0 40px 10px #dfdfdf;
     }
 }

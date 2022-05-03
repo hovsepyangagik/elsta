@@ -5,6 +5,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    .testimonial-img{
+        width: 152px;
+        border-radius: 50%;
+    }
     .testimonial-name, .testimonial-paragraph{
         font-family: 'Open Sans';
         font-size: 20px;
@@ -24,7 +28,6 @@
                 position: absolute;
                 left: -28px;
                 top: -28px;
-                // transform: translateX(-100%) translateY(50%);
             }
             &:nth-child(3){
                 transform: rotate(180deg) translateY(50%);
